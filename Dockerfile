@@ -4,4 +4,4 @@ COPY . .
 RUN npm i
 
 EXPOSE 8088
-CMD ['node', 'app.js']
+CMD ["npm", "run", "app.js"]
