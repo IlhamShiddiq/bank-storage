@@ -1,0 +1,6 @@
+services:
+  bank-storage:
+    container_name: bank-storage
+    image: bank-storage:latest
+    ports:
+      - 8088:8088
